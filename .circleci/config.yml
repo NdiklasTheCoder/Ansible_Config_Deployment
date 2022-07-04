@@ -38,7 +38,7 @@ jobs:
       - run:
           name: Configure server
           command: |
-            ansible-playbook -i inventory.txt main4.yml
+            ansible-playbook -i inventory.txt main-remote.yml
         # - destroy_environment
 #   myjob1:  # Choose any name, such as `build`
 #       # The primary container, where your job's commands will run
